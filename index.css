@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 :root{
     --primary:#fe9800;
     --light:white;
@@ -18,4 +25,67 @@ button{
 
 .font{
     font-size: 10px;
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+.footer{
+  background-color: white;
+  padding: 70px;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+ul a{
+    text-decoration: none;
+    color: #000;
+    display: block;
+
+}
+
+ul li a:hover{
+    color: #f7a01f;
+    padding-left: 8px;
+    transition: 0.3s;
+}
+.footer h4{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    position: relative;
+    margin-left: 30px;
+}
+
+.footer h4::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    height: 2px;
+    box-sizing: border-box;
+
+}
+
+.footer .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 6px 6px 0;
+    text-align: center;
+    line-height: 40px;
 }
