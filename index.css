@@ -1,0 +1,10 @@
+:root{
+    --primary:#fe9800;
+    --light:white;
+    --dark:#000;
+}
+
+body{
+    background-color: white;
+    text-decoration: none;
+}
