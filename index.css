@@ -8,3 +8,12 @@ body{
     background-color: white;
     text-decoration: none;
 }
+
+.margin{
+    margin-left: px;
+}
+
+button{
+    background: #f7a01f;
+    border: 1px solid #f7a01f;
+}
