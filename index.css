@@ -82,10 +82,23 @@ ul li a:hover{
 
 .footer .social-links a{
     display: inline-block;
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     background-color: rgba(255,255,255,0.2);
     margin: 0 6px 6px 0;
     text-align: center;
-    line-height: 40px;
+    line-height: 30px;
+    border: 1px solid rgb(109, 106, 106);
+    border-radius: 50%;
+    color: black;
+    transition: 0.5s ease;
+}
+
+.footer .social-links a:hover{
+    color: white;
+    background-color: #000;
+}
+
+.length{
+    padding: 12px;
 }
