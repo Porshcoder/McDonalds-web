@@ -9,11 +9,13 @@ body{
     text-decoration: none;
 }
 
-.margin{
-    margin-left: px;
-}
+
 
 button{
     background: #f7a01f;
     border: 1px solid #f7a01f;
+}
+
+.font{
+    font-size: 10px;
 }
