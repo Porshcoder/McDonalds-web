@@ -39,8 +39,8 @@ button{
     flex-wrap: wrap;
 }
 
-ul{
-    list-style: none;
+.footer ul{
+    list-style:none ;
 }
 .footer{
   background-color: white;
@@ -121,7 +121,7 @@ ul li a:hover{
 .footer .footer-menu a {
   margin-right: 25px;
   padding-right: 15px;
-  border-right: 1px soild rgba(255, 255, 255, 0.3);
+  border-right: 1px soild rgba(255,255 ,255, 0.2);
   margin-left: 20px;
 }
 
@@ -140,6 +140,16 @@ ul li a:hover{
     margin-left: 22px;
 }
 
+.footer .bg-blue:hover{
+    color: blue;
+}
+
+.footer hr{
+    width: 100%;
+    border: 1px solid gray;
+}
+
 .bg-blue{
     color: blue;
 }
+
